@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" Empty square class """
+"""Empty Square class """
+
+
 class Square:
-""" Square undifined parameters """
+    """ Undifined Square class parameters """
     pass
