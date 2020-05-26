@@ -19,7 +19,7 @@ BTW, have you ever modified a variable without knowing it or wanting to? I mean:
 
 OK. But what about this?
 
-````html
+```html
 >>> l = [1, 2, 3]
 >>> m = l
 >>> l[0] = 'x'
