@@ -1,0 +1,23 @@
+""" BaseGeometry test file """
+-------------------------------
+
+Using "BaseGeometry"
+
+
+""" Import """
+
+    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+    >>> geomB = BaseGeometry()
+
+    >>> geomB.integer_validator("value", 14)
+
+    >>> geomB.integer_validator("value", 0)
+    Traceback (most recent call last):
+    ...
+    ValueError: value must be greater than 0
+
+    >>> geomB.integer_validator("value", "acceptme"
+    Traceback (most recent call last):
+    ...
+    TypeError: value must be an integer
