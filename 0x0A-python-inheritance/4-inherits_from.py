@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-""" Module to check if object is an instace of a inherited class
-"""
+""" Instance of inherited class module """
 
 
 def inherits_from(obj, a_class):
