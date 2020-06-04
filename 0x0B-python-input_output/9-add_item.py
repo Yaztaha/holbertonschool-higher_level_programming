@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Script that adds all arguements to a Python list, ans then save them to a file """
+""" Script that adds all arguements to a Python list,
+and then save them to a file """
 
 import sys
 
