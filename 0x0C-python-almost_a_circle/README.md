@@ -1,5 +1,9 @@
 # 0x0C. Python - Almost a circle
 
+
+![alt text](https://pbs.twimg.com/media/DrMpD0EUwAA1KYc?format=jpg&name=medium)
+
+
 ## Background Context
 
 The AirBnB project is a big part of the Higher level curriculum. This project will help you be ready for it.
@@ -21,5 +25,3 @@ In this project, you will review everything about Python:
 - args and kwargs
 - Serialization/Deserialization
 - JSON
-
-![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/331/giphy.mp4)
