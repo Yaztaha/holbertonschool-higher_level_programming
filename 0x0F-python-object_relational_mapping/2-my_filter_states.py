@@ -10,7 +10,7 @@ if __name__ == "__main__":
                          passwd=argv[2], db=argv[3])
     c = db.cursor()
     q = "SELECT id, name FROM states\
-    WHERE name = (%s) ORDER BY states.id".format(argv[4])
+    WHERE name = (%s) ORDER BY states.id ASC".format(argv[4])
     c.execute(q, [argv[4]])
     states_rows = c.fetchall()
 
