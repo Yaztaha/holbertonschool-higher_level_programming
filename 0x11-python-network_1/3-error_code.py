@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """ Request URL with error exception management """
-import urllib
+import urllib.request
 import sys
+
 if __name__ == "__main__":
     req = urllib.request.Request(sys.argv[1])
     try:
